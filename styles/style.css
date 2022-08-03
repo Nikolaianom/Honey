@@ -130,7 +130,7 @@ font-size: 22px;
 line-height: 160%;
 }
 .information-box{
-    width: 548px;
+
     margin-left: 30px;
     margin-bottom: 50px;
 }
@@ -284,8 +284,10 @@ padding: 10px 30px;
     margin: 43px 40px 43px 61px;
 }
 .footer{
-    background: url('../images/footer-background.png') right center /cover ;
+    background: linear-gradient(to right, #FF9D2D, #FFD877)  ;
     margin-top: 130px;
+    background-size: 100%;
+    padding: 48px 0 27px 0;
 }
 .footer-box{
     display: flex;
@@ -309,5 +311,5 @@ margin-left: 50px;
 .footer-linkstwo{
     display: flex;
     column-gap: 20px;
-    padding: 48px 0 27px 0;
+    
 }
