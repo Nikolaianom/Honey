@@ -373,3 +373,12 @@
 }
         
 } 
+@media(max-width: 376px) {
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .texttwo {
+        padding-left: 30px;
+    }
+}
